@@ -1,0 +1,17 @@
+package twoSUm;
+
+public class testTwoSum {
+
+	public static void main(String[] args) {	
+		
+		
+		solution s = new solution();
+		int [] numbers = {1,2,3,4,2,2,13,321};
+		int target = 5;
+		int []result = s.twoSum(numbers, target);
+		
+		System.out.println(result[0] + " AND "+ result[1]);
+		
+	}
+
+}
